@@ -26,6 +26,7 @@ python check_claims.py        # kiểm tra Jacobian và ảnh hưởng tần s�
 ```
 
 **Dữ liệu:** tổng hợp hoàn toàn, sinh trong `rio_tc_sim.py`; không dùng dataset ngoài.  
+**Phiên bản code:** commit [`1afade6`](https://github.com/vvstdung89/K4-Track4-Day04-Studio.h-Sensor-Reality-Sprint/commit/1afade6). Mọi bảng và hình trong `results/` được sinh từ phiên bản này.  
 **Nguồn:** bài báo [arXiv 2502.00661v2](https://arxiv.org/abs/2502.00661v2) (phiên bản v2, ngày 10/06/2025) và repo [spearwin/EKF-RIO-TC](https://github.com/spearwin/EKF-RIO-TC). Code gốc của bài báo *không* được chạy: repo cần C++/ROS Noetic (Ubuntu 20.04), catkin và dữ liệu rosbag, không khả thi trên máy Windows trong 120 phút lab. Vì vậy nhóm tự cài đặt lại bản 2-D và benchmark trên dữ liệu mô phỏng, như đề lab cho phép.
 
 ## Cấu trúc thư mục

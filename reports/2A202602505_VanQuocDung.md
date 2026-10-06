@@ -66,7 +66,7 @@ Nhóm chọn bài báo của Kim và cộng sự, *EKF-Based Radar-Inertial Odom
 
 **Proxy chưa chứng minh được gì.** Tỉ lệ scan bị loại chỉ cho biết bao nhiêu scan một bộ gating sẽ bỏ. Nó không đếm số mục tiêu ma thật trong radar tracking. Sai số vị trí dùng pose thật của xe, nên chưa gồm sai số odometry. Benchmark cũng không đo trực tiếp AEB hay tracker thật sai bao nhiêu.
 
-**Lệnh chạy.** `python rio_tc_sim.py` (khoảng 8 phút), sau đó `python position_error.py`, `python export_failure_log.py`, `python plot_delay_impact.py` và `python check_claims.py`. Môi trường: Python 3.10.11, numpy 2.2.6, matplotlib 3.10.9. Bảng số nằm ở [`results/results.md`](../results/results.md) và [`results/position_error.md`](../results/position_error.md); log chạy ở [`results/run_log.txt`](../results/run_log.txt).
+**Lệnh chạy.** `python rio_tc_sim.py` (khoảng 8 phút), sau đó `python position_error.py`, `python export_failure_log.py`, `python plot_delay_impact.py` và `python check_claims.py`. Môi trường: Python 3.10.11, numpy 2.2.6, matplotlib 3.10.9. Phiên bản code: commit [`1afade6`](https://github.com/vvstdung89/K4-Track4-Day04-Studio.h-Sensor-Reality-Sprint/commit/1afade6). Bảng số nằm ở [`results/results.md`](../results/results.md) và [`results/position_error.md`](../results/position_error.md); log chạy ở [`results/run_log.txt`](../results/run_log.txt).
 
 ### 3.1 Sai số vị trí = tốc độ × độ trễ (benchmark tối thiểu của T4)
 
