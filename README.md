@@ -8,7 +8,7 @@ Danh sách đầy đủ ở [`TEAMMATES.md`](TEAMMATES.md). Mỗi thành viên c
 
 | Họ và tên | MSSV | Phân công | Báo cáo riêng |
 | --- | --- | --- | --- |
-| Đào Quang Thái Anh | 2A202602987 | Benchmark và trình bày | |
+| Đào Quang Thái Anh | 2A202602987 | Benchmark và trình bày | [`reports/2A202602987_DaoQuangThaiAnh.md`](reports/2A202602987_DaoQuangThaiAnh.md) |
 | Văn Quốc Dũng | 2A202602505 | Code | [`reports/2A202602505_VanQuocDung.md`](reports/2A202602505_VanQuocDung.md) |
 | Lương Sỹ Khánh | 2A202602715 | Research | |
 
