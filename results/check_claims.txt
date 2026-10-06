@@ -1,0 +1,7 @@
+# check_claims.py output
+
+max |H - finite diff| (theta, b_g, v_x, v_y columns): 9.9e-10
+max |H_td - d h/dt| (t_d column):                    5.3e-11
+
+IMU 200 Hz: mean signed t_d error 50-60 s (E1, -113 ms, 10 seeds) = +2.82 ms
+IMU 400 Hz: mean signed t_d error 50-60 s (E1, -113 ms, 10 seeds) = +1.40 ms
